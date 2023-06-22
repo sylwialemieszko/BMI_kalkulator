@@ -1,0 +1,54 @@
+
+h1 {
+    font-size: 50px; color:black;
+    padding-left: 30%;
+    margin: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color:#fec7de;
+    
+}
+
+.wiersz {
+    
+    font-size: 18px; color: black;
+    float: center;
+  
+}
+  
+.kolumna {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color:#fec7de;
+
+
+}
+
+button {
+    font-size: 18px; 
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #d9c9ed;
+    
+}
+
+.tlo{ 
+
+    background-image: url(./background.jpeg)
+
+}
+#twojebmi
+{
+font-style: bold;
+font-size: 25px;
+}

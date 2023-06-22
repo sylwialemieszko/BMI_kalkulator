@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <script src="./BMI.js"></script>
+    <title>Kalkulator BMI SL</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    
+ </head>
+<body class="tlo">
+    
+    
+    <div> <h1> Kalkulator BMI </h1> </div>
+    <div class="wiersz">
+        <div class="kolumna">
+
+            Podaj wagę (kg)<br>
+            <input type="number" id="kg" />
+           <br><br>
+           
+            Podaj wzrost (cm)<br>
+            <input type="number" id="cm" />
+            <br><br>       
+            <button onclick="oblicz()">Zatwierdź</button>
+            
+        </div>
+        
+        <div class="kolumna">
+        
+            <div id="Zatwierdź">
+                <p id="twojawaga"></p>
+                <p id="twojwzrost"></p>
+                <p id="twojebmi"></p>
+                
+            <div class="kolumna2">
+                <p id="error"></p>
+                <p id="porownanie"></p>
+               
+            </div>
+
+            </div>
+            
+        </div>
+
+        <div class="kolumna"">Historia pomiarów
+
+            <div id="historia"></div>
+
+        </div>
+        </div>
+        
+
+    <script>
+        wyswietl_historie();
+    </script>
+</body>
+</html>
